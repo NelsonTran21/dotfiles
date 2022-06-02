@@ -33,6 +33,7 @@
   system.stateVersion = 4;
 
   modules = {
+    git.enable = true;
     home.enable = true;
   };
 }

@@ -1,0 +1,13 @@
+[user]
+	name = Nelson Tran
+	email = nelson@tran21.com
+
+[core]
+	editor = vim
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[pull]
+	ff = only
