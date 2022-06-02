@@ -3,6 +3,7 @@
 {
   imports = [
     inputs.home-manager.darwinModules.home-manager
+    ../../modules
   ];
 
   # List packages installed in system profile. To search by name, run:
@@ -30,4 +31,8 @@
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
+
+  modules = {
+    home.enable = true;
+  };
 }
