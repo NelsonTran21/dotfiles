@@ -6,5 +6,6 @@
     ./home
     ./homebrew
     ./password
+    ./vscode
   ];
 }

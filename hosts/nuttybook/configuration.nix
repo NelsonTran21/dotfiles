@@ -40,5 +40,6 @@
     home.enable = true;
     homebrew.enable = true;
     password.enable = true;
+    vscode.enable = true;
   };
 }
