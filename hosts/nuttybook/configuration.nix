@@ -38,5 +38,6 @@
   modules = {
     git.enable = true;
     home.enable = true;
+    homebrew.enable = true;
   };
 }

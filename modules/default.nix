@@ -4,5 +4,6 @@
   imports = [
     ./git
     ./home
+    ./homebrew
   ];
 }
