@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./discord
     ./git
     ./home
     ./homebrew

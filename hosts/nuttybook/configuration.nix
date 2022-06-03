@@ -36,6 +36,7 @@
   system.stateVersion = 4;
 
   modules = {
+    discord.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
