@@ -8,5 +8,6 @@
     ./homebrew
     ./password
     ./vscode
+    ./yabai
   ];
 }
