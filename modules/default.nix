@@ -5,5 +5,6 @@
     ./git
     ./home
     ./homebrew
+    ./password
   ];
 }
