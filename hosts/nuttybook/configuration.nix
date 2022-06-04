@@ -29,7 +29,6 @@
 
   # Create /etc/bashrc that loads the nix-darwin environment.
   programs.zsh.enable = true;
-  programs.fish.enable = true;
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
@@ -37,6 +36,7 @@
 
   modules = {
     discord.enable = true;
+    fish.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
