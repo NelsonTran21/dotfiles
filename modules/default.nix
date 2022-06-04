@@ -3,6 +3,7 @@
 {
   imports = [
     ./discord
+    ./exa
     ./fish
     ./git
     ./home

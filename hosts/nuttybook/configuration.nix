@@ -36,6 +36,7 @@
 
   modules = {
     discord.enable = true;
+    exa.enable = true;
     fish.enable = true;
     git.enable = true;
     home.enable = true;

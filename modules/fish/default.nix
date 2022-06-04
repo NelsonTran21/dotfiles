@@ -18,6 +18,7 @@ with lib;
           optionals isEnabled [ "source ${path}" ];
       in
       concatStringsSep "\n" (
+        sourceIf config.modules.exa.enable ../exa/init.fish ++
         sourceIf config.modules.homebrew.enable ../homebrew/init.fish
       );
   };
