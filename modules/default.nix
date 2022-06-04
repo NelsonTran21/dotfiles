@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./chrome
     ./discord
     ./exa
     ./fish

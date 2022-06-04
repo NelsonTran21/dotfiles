@@ -35,6 +35,7 @@
   system.stateVersion = 4;
 
   modules = {
+    chrome.enable = true;
     discord.enable = true;
     exa.enable = true;
     fish.enable = true;
