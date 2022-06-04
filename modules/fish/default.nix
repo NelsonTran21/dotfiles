@@ -15,8 +15,10 @@ with lib;
       let
         sourceIf =
           isEnabled: path:
-          optional isEnabled "source ${path}";
+          optionals isEnabled [ "source ${path}" ];
       in
-      concatStringsSep "\n" [ ];
+      concatStringsSep "\n" (
+        sourceIf config.modules.homebrew.enable ../homebrew/init.fish
+      );
   };
 }
