@@ -42,6 +42,7 @@
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
+    macos.enable = true;
     password.enable = true;
     vscode.enable = true;
     yabai.enable = true;
