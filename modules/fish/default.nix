@@ -13,11 +13,14 @@ with lib;
     programs.fish.enable = true;
     programs.fish.shellInit =
       let
-        sourceIf =
-          isEnabled: path:
-          optionals isEnabled [ "source ${path}" ];
+        source = path: [ "source ${path}" ];
+        sourceIf = isEnabled: path: optionals isEnabled (source path);
       in
       concatStringsSep "\n" (
+        source ./init.fish ++
+        source ./greeting.fish ++
+        source ./prompt.fish ++
+
         sourceIf config.modules.exa.enable ../exa/init.fish ++
         sourceIf config.modules.fzf.enable ../fzf/init.fish ++
         sourceIf config.modules.homebrew.enable ../homebrew/init.fish ++
