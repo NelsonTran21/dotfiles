@@ -35,15 +35,19 @@
   system.stateVersion = 4;
 
   modules = {
+    bat.enable = true;
     chrome.enable = true;
     discord.enable = true;
     exa.enable = true;
+    fd.enable = true;
     fish.enable = true;
+    fzf.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
     macos.enable = true;
     password.enable = true;
+    ripgrep.enable = true;
     vscode.enable = true;
     yabai.enable = true;
   };
