@@ -42,9 +42,11 @@
     fd.enable = true;
     fish.enable = true;
     fzf.enable = true;
+    geforce.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
+    logitech.enable = true;
     macos.enable = true;
     password.enable = true;
     ripgrep.enable = true;
