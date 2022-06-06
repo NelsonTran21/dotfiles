@@ -1,4 +1,4 @@
-abbr ln "ln --symbolic"
-abbr cp "cp --interactive --verbose"
-abbr mv "mv --interactive --verbose"
-abbr mkdir "mkdir --parents -verbose"
+abbr ln "ln -s"
+abbr cp "cp -iv"
+abbr mv "mv -iv"
+abbr mkdir "mkdir -pv"
