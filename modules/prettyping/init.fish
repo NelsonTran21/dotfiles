@@ -1,0 +1,1 @@
+abbr ping "prettyping --nolegend";

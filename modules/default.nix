@@ -18,6 +18,7 @@
     ./logitech
     ./macos
     ./password
+    ./prettyping
     ./ripgrep
     ./tldr
     ./vim

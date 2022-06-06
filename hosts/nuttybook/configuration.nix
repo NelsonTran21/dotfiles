@@ -45,6 +45,7 @@
     logitech.enable = true;
     macos.enable = true;
     password.enable = true;
+    prettyping.enable = true;
     ripgrep.enable = true;
     tldr.enable = true;
     vim.enable = true;

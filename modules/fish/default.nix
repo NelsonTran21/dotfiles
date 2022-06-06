@@ -24,7 +24,8 @@ with lib;
         sourceIf config.modules.exa.enable ../exa/init.fish ++
         sourceIf config.modules.fzf.enable ../fzf/init.fish ++
         sourceIf config.modules.homebrew.enable ../homebrew/init.fish ++
-        sourceIf config.modules.macos.enable ../macos/init.fish
+        sourceIf config.modules.macos.enable ../macos/init.fish ++
+        sourceIf config.modules.prettyping.enable ../prettyping/init.fish
       );
   };
 }
