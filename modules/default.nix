@@ -5,6 +5,7 @@
     ./bat
     ./chrome
     ./discord
+    ./dotnet
     ./exa
     ./fd
     ./fish
