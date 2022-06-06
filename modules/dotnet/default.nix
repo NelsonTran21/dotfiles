@@ -14,6 +14,6 @@ with lib;
     # This package is not actually broken.
     # TODO Remove after updating to nixpkgs-22.11-darwin.
     nixpkgs.config.allowBroken = true;
-    environment.systemPackages = with pkgs; [ dotnet-netcore ];
+    environment.systemPackages = with pkgs; [ dotnet-sdk_6 ];
   };
 }
