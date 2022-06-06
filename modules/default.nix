@@ -13,10 +13,13 @@
     ./git
     ./home
     ./homebrew
+    ./htop
+    ./jq
     ./logitech
     ./macos
     ./password
     ./ripgrep
+    ./tldr
     ./vim
     ./vscode
     ./yabai

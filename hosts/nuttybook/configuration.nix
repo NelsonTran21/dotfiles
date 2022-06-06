@@ -40,10 +40,13 @@
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
+    htop.enable = true;
+    jq.enable = true;
     logitech.enable = true;
     macos.enable = true;
     password.enable = true;
     ripgrep.enable = true;
+    tldr.enable = true;
     vim.enable = true;
     vscode.enable = true;
     yabai.enable = true;
