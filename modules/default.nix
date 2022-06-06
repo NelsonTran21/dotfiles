@@ -17,6 +17,7 @@
     ./macos
     ./password
     ./ripgrep
+    ./vim
     ./vscode
     ./yabai
   ];

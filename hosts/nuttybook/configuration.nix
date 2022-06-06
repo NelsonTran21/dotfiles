@@ -6,12 +6,6 @@
     ../../modules
   ];
 
-  # List packages installed in system profile. To search by name, run:
-  # $ nix-env -qaP | grep wget
-  environment.systemPackages =
-    [ pkgs.vim
-    ];
-
   # Use a custom configuration.nix location.
   # $ darwin-rebuild switch -I darwin-config=$HOME/.config/nixpkgs/darwin/configuration.nix
   # environment.darwinConfig = "$HOME/.config/nixpkgs/darwin/configuration.nix";
@@ -50,6 +44,7 @@
     macos.enable = true;
     password.enable = true;
     ripgrep.enable = true;
+    vim.enable = true;
     vscode.enable = true;
     yabai.enable = true;
   };
