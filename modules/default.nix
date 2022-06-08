@@ -15,6 +15,7 @@
     ./home
     ./homebrew
     ./htop
+    ./jetbrains
     ./jq
     ./logitech
     ./macos

@@ -42,6 +42,7 @@
     home.enable = true;
     homebrew.enable = true;
     htop.enable = true;
+    jetbrains.enable = true;
     jq.enable = true;
     logitech.enable = true;
     macos.enable = true;
