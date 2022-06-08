@@ -46,6 +46,7 @@
     jq.enable = true;
     logitech.enable = true;
     macos.enable = true;
+    obsidian.enable = true;
     password.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;

@@ -19,6 +19,7 @@
     ./jq
     ./logitech
     ./macos
+    ./obsidian
     ./password
     ./prettyping
     ./ripgrep
