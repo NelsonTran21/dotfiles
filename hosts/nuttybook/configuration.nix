@@ -48,6 +48,7 @@
     macos.enable = true;
     obsidian.enable = true;
     password.enable = true;
+    postgresql.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;
     tldr.enable = true;

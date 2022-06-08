@@ -21,6 +21,7 @@
     ./macos
     ./obsidian
     ./password
+    ./postgresql
     ./prettyping
     ./ripgrep
     ./tldr
