@@ -10,17 +10,17 @@ with lib;
 
     taps = mkOption {
       type = listOf str;
-      default = [];
+      default = [ ];
     };
 
     brews = mkOption {
       type = listOf str;
-      default = [];
+      default = [ ];
     };
 
     casks = mkOption {
       type = listOf str;
-      default = [];
+      default = [ ];
     };
   };
 
