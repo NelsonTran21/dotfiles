@@ -2,5 +2,38 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+
+  "vim.leader": "<Space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "leader",
+        "leader"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "leader",
+        "leader"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
+    }
+  ]
 }
