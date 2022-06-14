@@ -3,7 +3,7 @@
 	email = nelson@tran21.com
 
 [core]
-	editor = vim
+	editor = nvim
 	pager = delta
 
 [interactive]
