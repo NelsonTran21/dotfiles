@@ -24,6 +24,7 @@
     ./postgresql
     ./prettyping
     ./ripgrep
+    ./steam
     ./tldr
     ./vim
     ./vscode

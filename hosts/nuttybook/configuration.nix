@@ -51,6 +51,7 @@
     postgresql.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;
+    steam.enable = true;
     tldr.enable = true;
     vim.enable = true;
     vscode.enable = true;
