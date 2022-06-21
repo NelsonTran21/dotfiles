@@ -10,7 +10,11 @@ with lib;
   };
 
   config = mkIf config.modules.postgresql.enable {
-    environment.systemPackages = with pkgs; [ pgcli ];
+    environment.systemPackages = with pkgs; [
+      pgcli
+      pgformatter
+    ];
+
     modules.homebrew.brews = [ "postgresql" ];
   };
 }
