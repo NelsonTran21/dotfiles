@@ -15,6 +15,7 @@
     ./home
     ./homebrew
     ./htop
+    ./iosevka
     ./jetbrains
     ./jq
     ./logitech
