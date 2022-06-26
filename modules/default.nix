@@ -29,6 +29,7 @@
     ./tldr
     ./vim
     ./vscode
+    ./warp
     ./yabai
   ];
 }

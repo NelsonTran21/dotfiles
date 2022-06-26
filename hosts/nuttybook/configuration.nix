@@ -56,6 +56,7 @@
     tldr.enable = true;
     vim.enable = true;
     vscode.enable = true;
+    warp.enable = true;
     yabai.enable = true;
   };
 }
