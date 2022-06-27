@@ -15,6 +15,7 @@
     ./home
     ./homebrew
     ./htop
+    ./hue
     ./iosevka
     ./jetbrains
     ./jq

@@ -42,6 +42,7 @@
     home.enable = true;
     homebrew.enable = true;
     htop.enable = true;
+    hue.enable = true;
     iosevka.enable = true;
     jetbrains.enable = true;
     jq.enable = true;
