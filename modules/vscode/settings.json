@@ -1,5 +1,6 @@
 {
   "editor.fontFamily": "Iosevka",
+  "editor.fontLigatures": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
