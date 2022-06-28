@@ -1,6 +1,10 @@
 {
   "editor.fontFamily": "Iosevka",
   "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
+
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
