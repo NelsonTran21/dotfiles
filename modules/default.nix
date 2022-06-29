@@ -25,6 +25,7 @@
     ./password
     ./postgresql
     ./prettyping
+    ./qmk
     ./ripgrep
     ./steam
     ./tldr

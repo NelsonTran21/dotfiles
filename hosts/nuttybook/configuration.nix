@@ -52,6 +52,7 @@
     password.enable = true;
     postgresql.enable = true;
     prettyping.enable = true;
+    qmk.enable = true;
     ripgrep.enable = true;
     steam.enable = true;
     tldr.enable = true;
