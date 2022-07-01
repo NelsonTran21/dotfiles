@@ -8,8 +8,14 @@
   "editor.minimap.enabled": false,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
+  "workbench.editor.showIcons": false,
   "workbench.list.smoothScrolling": true,
+  "window.titleBarStyle": "native",
   "window.zoomLevel": 0,
+
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.font.regular": "Iosevka",
+  "customizeUI.listRowHeight": 20,
 
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindings": [
