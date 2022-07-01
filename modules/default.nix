@@ -27,6 +27,7 @@
     ./postgresql
     ./prettyping
     ./qmk
+    ./raycast
     ./ripgrep
     ./steam
     ./tldr
