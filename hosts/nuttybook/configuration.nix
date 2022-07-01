@@ -56,6 +56,7 @@
     qmk.enable = true;
     raycast.enable = true;
     ripgrep.enable = true;
+    skhd.enable = true;
     steam.enable = true;
     tldr.enable = true;
     vim.enable = true;

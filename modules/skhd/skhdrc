@@ -1,0 +1,35 @@
+# If you notice a long delay after pressing the hotkey, you may need
+# to update the $SHELL used to execute the commands. See this link:
+# https://github.com/koekeishiya/skhd/issues/42#issuecomment-401889387
+
+# focus window
+alt - m : yabai -m window --focus west || yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+alt - n : yabai -m window --focus south
+alt - e : yabai -m window --focus north
+alt - i : yabai -m window --focus east || yabai -m window --focus stack.next || yabai -m window --focus stack.first
+
+# swap window
+alt + shift - m : yabai -m window --swap west
+alt + shift - n : yabai -m window --swap south
+alt + shift - e : yabai -m window --swap north
+alt + shift - i : yabai -m window --swap east
+
+# move window
+alt + ctrl - m : yabai -m window --warp west
+alt + ctrl - n : yabai -m window --warp south
+alt + ctrl - e : yabai -m window --warp north
+alt + ctrl - i : yabai -m window --warp east
+
+# focus monitor
+alt - 1 : yabai -m display --focus 1
+alt - 2 : yabai -m display --focus 2
+alt - 3 : yabai -m display --focus 3
+
+# send window to monitor and follow focus
+alt + shift - 1 : yabai -m window --display 1; yabai -m display --focus 1
+alt + shift - 2 : yabai -m window --display 2; yabai -m display --focus 2
+alt + shift - 3 : yabai -m window --display 3; yabai -m display --focus 3
+
+# move spaces
+ctrl - left : yabai -m space --focus prev
+ctrl - right : yabai -m space --focus next

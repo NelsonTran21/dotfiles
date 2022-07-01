@@ -29,6 +29,7 @@
     ./qmk
     ./raycast
     ./ripgrep
+    ./skhd
     ./steam
     ./tldr
     ./vim
