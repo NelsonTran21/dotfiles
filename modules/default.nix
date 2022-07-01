@@ -19,6 +19,7 @@
     ./iosevka
     ./jetbrains
     ./jq
+    ./linear
     ./logitech
     ./macos
     ./obsidian

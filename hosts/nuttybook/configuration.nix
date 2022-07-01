@@ -46,6 +46,7 @@
     iosevka.enable = true;
     jetbrains.enable = true;
     jq.enable = true;
+    linear.enable = true;
     logitech.enable = true;
     macos.enable = true;
     obsidian.enable = true;
