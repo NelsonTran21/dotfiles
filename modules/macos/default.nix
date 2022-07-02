@@ -15,6 +15,6 @@ with lib;
     # - Hide in menu bar
     # - Acceleration = 0
     # - Sensitivity = 0.22
-    homebrew.casks = [ "linearmouse" ];
+    modules.homebrew.casks = [ "linearmouse" ];
   };
 }
