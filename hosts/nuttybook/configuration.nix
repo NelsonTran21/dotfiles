@@ -54,6 +54,7 @@
     postgresql.enable = true;
     prettyping.enable = true;
     qmk.enable = true;
+    raspberry-pi.enable = true;
     raycast.enable = true;
     ripgrep.enable = true;
     skhd.enable = true;
