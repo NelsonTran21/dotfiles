@@ -3,7 +3,7 @@
     "darwin": {
       "inputs": {
         "nixpkgs": [
-          "nixpkgs"
+          "nixpkgs-darwin"
         ]
       },
       "locked": {
@@ -37,6 +37,22 @@
         "type": "github"
       }
     },
+    "hardware": {
+      "locked": {
+        "lastModified": 1656702262,
+        "narHash": "sha256-BdVdx6LoGgAeIYrHnzk+AgbtkaVlV3JNcC6+vltLuh0=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "c5308381432cdbf14d5b1128747a2845f5c6871e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixos-hardware",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -63,15 +79,31 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1655421536,
-        "narHash": "sha256-CjPYLRJj/aglDiY+755CYazTugGco0quzlTo1arVil0=",
-        "owner": "nixos",
+        "lastModified": 1656589841,
+        "narHash": "sha256-Kqd6r9aNIzjYGhMFYATdKwRbXBCGLcdqAJMLr4I8LG0=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "87d9c84817d7be81850c07e8f6a362b1dfc30feb",
+        "rev": "dbb62c34bbb5cdf05f1aeab07638b24b0824d605",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
+        "owner": "NixOS",
+        "ref": "nixos-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-darwin": {
+      "locked": {
+        "lastModified": 1656672555,
+        "narHash": "sha256-2UH4cCWzJ9/XSNF57CdF2eETqaw6CgYiCheurSdCA0Y=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "83693f62aa580d73e7fd0029a3e55acc5c874f7a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
         "ref": "nixpkgs-22.05-darwin",
         "repo": "nixpkgs",
         "type": "github"
@@ -112,8 +144,10 @@
     "root": {
       "inputs": {
         "darwin": "darwin",
+        "hardware": "hardware",
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-darwin": "nixpkgs-darwin"
       }
     },
     "utils": {
