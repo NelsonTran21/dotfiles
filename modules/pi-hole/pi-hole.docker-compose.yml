@@ -1,0 +1,13 @@
+services:
+  pihole:
+    container_name: pi-hole
+    image: pihole/pihole:latest
+    network_mode: host
+    volumes:
+      - '/app/pi-hole/etc/pihole:/etc/pihole'
+      - '/app/pi-hole/etc/dnsmasq.d:/etc/dnsmasq.d'
+    environment:
+      TZ: 'America/Phoenix'
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped

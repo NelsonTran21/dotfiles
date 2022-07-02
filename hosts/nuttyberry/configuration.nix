@@ -62,6 +62,7 @@ in
     home.enable = true;
     htop.enable = true;
     jq.enable = true;
+    pi-hole.enable = true;
     prettyping.enable = true;
     rclone.enable = true;
     ripgrep.enable = true;
