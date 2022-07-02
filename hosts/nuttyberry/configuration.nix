@@ -7,6 +7,9 @@ in
 {
   imports = [
     inputs.hardware.nixosModules.raspberry-pi-4
+    inputs.home-manager.nixosModules.home-manager
+    ../../modules/homebrew/stub
+    ../../modules
   ];
 
   fileSystems = {
@@ -26,10 +29,6 @@ in
     };
   };
 
-  environment.systemPackages = with pkgs; [ vim ];
-
-  services.openssh.enable = true;
-
   users = {
     mutableUsers = false;
     users.nelson = {
@@ -42,11 +41,30 @@ in
   # Enable GPU acceleration
   hardware.raspberry-pi."4".fkms-3d.enable = true;
 
+  hardware.pulseaudio.enable = true;
+
+  services.openssh.enable = true;
+
   services.xserver = {
     enable = true;
     displayManager.lightdm.enable = true;
     desktopManager.xfce.enable = true;
   };
 
-  hardware.pulseaudio.enable = true;
+  modules = {
+    bat.enable = true;
+    exa.enable = true;
+    fd.enable = true;
+    fish.enable = true;
+    fzf.enable = true;
+    git.enable = true;
+    home.enable = true;
+    htop.enable = true;
+    jq.enable = true;
+    prettyping.enable = true;
+    rclone.enable = true;
+    ripgrep.enable = true;
+    tldr.enable = true;
+    vim.enable = true;
+  };
 }

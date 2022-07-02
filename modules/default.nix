@@ -13,7 +13,6 @@
     ./geforce
     ./git
     ./home
-    ./homebrew
     ./htop
     ./hue
     ./iosevka
