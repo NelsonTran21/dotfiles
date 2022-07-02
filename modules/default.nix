@@ -29,6 +29,7 @@
     ./qmk
     ./raspberry-pi
     ./raycast
+    ./rclone
     ./ripgrep
     ./skhd
     ./steam

@@ -56,6 +56,7 @@
     qmk.enable = true;
     raspberry-pi.enable = true;
     raycast.enable = true;
+    rclone.enable = true;
     ripgrep.enable = true;
     skhd.enable = true;
     steam.enable = true;
