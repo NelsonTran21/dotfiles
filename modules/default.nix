@@ -27,6 +27,7 @@
     ./postgresql
     ./prettyping
     ./qmk
+    ./raspberry-pi
     ./raycast
     ./ripgrep
     ./skhd
