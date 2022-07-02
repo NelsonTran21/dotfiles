@@ -8,7 +8,7 @@ in
   imports = [
     inputs.hardware.nixosModules.raspberry-pi-4
     inputs.home-manager.nixosModules.home-manager
-    ../../modules/homebrew/stub
+    ../../modules/system/linux
     ../../modules
   ];
 
@@ -53,6 +53,7 @@ in
 
   modules = {
     bat.enable = true;
+    docker.enable = true;
     exa.enable = true;
     fd.enable = true;
     fish.enable = true;

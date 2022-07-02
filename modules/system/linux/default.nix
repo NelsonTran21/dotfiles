@@ -1,0 +1,8 @@
+{ ... }:
+
+{
+  imports = [
+    ../../docker
+    ../../homebrew/stub
+  ];
+}

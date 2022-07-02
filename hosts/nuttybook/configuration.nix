@@ -3,7 +3,7 @@
 {
   imports = [
     inputs.home-manager.darwinModules.home-manager
-    ../../modules/homebrew
+    ../../modules/system/darwin
     ../../modules
   ];
 
