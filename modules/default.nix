@@ -21,6 +21,7 @@
     ./linear
     ./logitech
     ./macos
+    ./node
     ./obsidian
     ./password
     ./postgresql
