@@ -55,6 +55,7 @@
     password.enable = true;
     postgresql.enable = true;
     prettyping.enable = true;
+    python.enable = true;
     qmk.enable = true;
     raspberry-pi.enable = true;
     raycast.enable = true;

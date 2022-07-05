@@ -26,6 +26,7 @@
     ./password
     ./postgresql
     ./prettyping
+    ./python
     ./qmk
     ./raspberry-pi
     ./raycast
