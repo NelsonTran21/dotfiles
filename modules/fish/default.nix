@@ -26,6 +26,7 @@ with lib;
         sourceIf config.modules.git.enable ../git/init.fish ++
         sourceIf config.modules.homebrew.enable ../homebrew/init.fish ++
         sourceIf config.modules.macos.enable ../macos/init.fish ++
+        sourceIf config.modules.node.enable ../node/init.fish ++
         sourceIf config.modules.prettyping.enable ../prettyping/init.fish
       );
   };

@@ -21,7 +21,6 @@ with lib;
       NPM_CONFIG_CACHE = "/home/${config.modules.home.user.name}/.config/npm";
       NPM_CONFIG_PREFIX = "/home/${config.modules.home.user.name}/npm";
       NODE_REPL_HISTORY = "/home/${config.modules.home.user.name}/node/repl_history";
-      PATH = [ "$(${pkgs.yarn}/bin/yarn global bin)" ];
     };
   };
 }
