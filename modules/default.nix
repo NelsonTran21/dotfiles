@@ -21,6 +21,7 @@
     ./linear
     ./logitech
     ./macos
+    ./nix
     ./node
     ./obsidian
     ./password

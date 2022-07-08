@@ -50,6 +50,7 @@
     linear.enable = true;
     logitech.enable = true;
     macos.enable = true;
+    nix.enable = true;
     node.enable = true;
     obsidian.enable = true;
     password.enable = true;
