@@ -11,6 +11,10 @@ with lib;
 
   system.stateVersion = "22.05";
 
+  kexec = mkIf (isRescueSystem == true) {
+    autoReboot = false;
+  };
+
   nix = {
     package = pkgs.nixFlakes;
     extraOptions = "experimental-features = nix-command flakes";
