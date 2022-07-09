@@ -23,9 +23,14 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nixos-generators = {
+      url = "github:nix-community/nixos-generators";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = inputs @ { self, darwin, nixpkgs, nixpkgs-darwin, ... }: {
+  outputs = inputs @ { self, darwin, nixpkgs, nixpkgs-darwin, nixos-generators, ... }: {
     darwinConfigurations.nuttybook = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [ ./hosts/nuttybook/configuration.nix ];
@@ -36,6 +41,22 @@
       system = "aarch64-linux";
       modules = [ ./hosts/nuttyberry/configuration.nix ];
       specialArgs = { inherit inputs; };
+    };
+
+    nixosConfigurations.nuttycloud = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [ ./hosts/nuttycloud/configuration.nix ];
+      specialArgs = { inherit inputs; };
+    };
+
+    packages.x86_64-linux.nuttycloud = nixos-generators.nixosGenerate {
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      modules = [ ./hosts/nuttycloud/configuration.nix ];
+      format = "kexec-bundle";
+      specialArgs = {
+        inherit inputs;
+        isRescueSystem = true;
+      };
     };
   };
 }
