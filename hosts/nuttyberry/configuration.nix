@@ -8,7 +8,6 @@ in
   imports = [
     inputs.hardware.nixosModules.raspberry-pi-4
     inputs.home-manager.nixosModules.home-manager
-    ../../modules/homebrew/stub
     ../../modules
   ];
 
