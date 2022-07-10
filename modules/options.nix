@@ -35,6 +35,7 @@
     ./rclone/options.nix
     ./ripgrep/options.nix
     ./skhd/options.nix
+    ./ssh/options.nix
     ./steam/options.nix
     ./tldr/options.nix
     ./vim/options.nix
