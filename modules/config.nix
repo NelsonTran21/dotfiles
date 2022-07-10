@@ -1,0 +1,44 @@
+{ ... }:
+
+{
+  imports = [
+    ./bat/config.nix
+    ./chrome/config.nix
+    ./discord/config.nix
+    ./dotnet/config.nix
+    ./exa/config.nix
+    ./fd/config.nix
+    ./fish/config.nix
+    ./fzf/config.nix
+    ./geforce/config.nix
+    ./git/config.nix
+    ./home/config.nix
+    ./htop/config.nix
+    ./hue/config.nix
+    ./iosevka/config.nix
+    ./jetbrains/config.nix
+    ./jq/config.nix
+    ./linear/config.nix
+    ./logitech/config.nix
+    ./macos/config.nix
+    ./nix/config.nix
+    ./node/config.nix
+    ./obsidian/config.nix
+    ./password/config.nix
+    ./postgresql/config.nix
+    ./prettyping/config.nix
+    ./python/config.nix
+    ./qmk/config.nix
+    ./raspberry-pi/config.nix
+    ./raycast/config.nix
+    ./rclone/config.nix
+    ./ripgrep/config.nix
+    ./skhd/config.nix
+    ./steam/config.nix
+    ./tldr/config.nix
+    ./vim/config.nix
+    ./vscode/config.nix
+    ./warp/config.nix
+    ./yabai/config.nix
+  ];
+}

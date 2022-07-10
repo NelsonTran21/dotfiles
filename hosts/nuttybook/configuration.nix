@@ -3,7 +3,9 @@
 {
   imports = [
     inputs.home-manager.darwinModules.home-manager
-    ../../modules
+    ../../modules/options.nix
+    ../../modules/config.darwin.nix
+    ../../modules/config.nix
   ];
 
   # Use a custom configuration.nix location.
