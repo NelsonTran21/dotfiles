@@ -38,14 +38,14 @@ with lib;
     enable = true;
 
     # Because there are two network interfaces connected to this machine, let's
-    # rename the network interface to avoid race conditions that would cause
+    # rename the network interfaces to avoid race conditions that would cause
     # eth0 and eth1 to flip names during device probing. El Psy Kongroo.
     links."10-rai-net" = {
       matchConfig.MACAddress = "d0:50:99:fd:92:e3";
       linkConfig.Name = "rai-net";
     };
 
-    networks."rai-net".extraConfig = ''
+    networks.rai-net.extraConfig = ''
       [Match]
       Name = rai-net
 
@@ -61,7 +61,17 @@ with lib;
       linkConfig.Name = "dead-net";
     };
 
-    networks."dead-net".extraConfig = ''
+    networks.dead-net.extraConfig = ''
+      [Link]
+      RequiredForOnline = no
+    '';
+
+    links."30-tailscale" = mkIf config.modules.tailscale.enable {
+      matchConfig.Name = "tailscale0";
+      linkConfig.Name = "tailscale0";
+    };
+
+    networks.tailscale0.extraConfig = mkIf config.modules.tailscale.enable ''
       [Link]
       RequiredForOnline = no
     '';
