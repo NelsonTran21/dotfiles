@@ -2,7 +2,7 @@
 
 with lib;
 {
-  options.modules.password = with types; {
+  options.modules.one-password = with types; {
     enable = mkOption {
       type = bool;
       default = false;

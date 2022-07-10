@@ -14,7 +14,7 @@
     ./jq/config.nix
     ./nix/config.nix
     ./node/config.nix
-    ./password/config.nix
+    ./one-password/config.nix
     ./postgresql/config.nix
     ./prettyping/config.nix
     ./python/config.nix

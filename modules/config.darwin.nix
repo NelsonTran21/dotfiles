@@ -13,7 +13,7 @@
     ./logitech/config.darwin.nix
     ./macos/config.darwin.nix
     ./obsidian/config.darwin.nix
-    ./password/config.darwin.nix
+    ./one-password/config.darwin.nix
     ./postgresql/config.darwin.nix
     ./qmk/config.darwin.nix
     ./raspberry-pi/config.darwin.nix

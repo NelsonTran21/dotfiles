@@ -54,7 +54,7 @@
     nix.enable = true;
     node.enable = true;
     obsidian.enable = true;
-    password.enable = true;
+    one-password.enable = true;
     postgresql.enable = true;
     prettyping.enable = true;
     python.enable = true;
