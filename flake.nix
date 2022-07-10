@@ -46,7 +46,10 @@
     nixosConfigurations.nuttycloud = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [ ./hosts/nuttycloud/configuration.nix ];
-      specialArgs = { inherit inputs; };
+      specialArgs = {
+        inherit inputs;
+        isRescueSystem = false;
+      };
     };
 
     packages.x86_64-linux.nuttycloud = nixos-generators.nixosGenerate {
