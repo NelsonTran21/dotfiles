@@ -40,7 +40,7 @@ with lib;
     # Because there are two network interfaces connected to this machine, let's
     # rename the network interface to avoid race conditions that would cause
     # eth0 and eth1 to flip names during device probing. El Psy Kongroo.
-    links."10-rename-interface" = {
+    links."10-rai-net" = {
       matchConfig.MACAddress = "d0:50:99:fd:92:e3";
       linkConfig.Name = "rai-net";
     };
@@ -54,6 +54,16 @@ with lib;
       Gateway = 2604:2dc0:0200:17ff:00ff:00ff:00ff:00ff
       Address = 51.81.166.165/24
       Gateway = 51.81.166.254
+    '';
+
+    links."20-dead-net" = {
+      matchConfig.MACAddress = "d0:50:99:fd:92:e4";
+      linkConfig.Name = "dead-net";
+    };
+
+    networks."dead-net".extraConfig = ''
+      [Link]
+      RequiredForOnline = no
     '';
   };
 
