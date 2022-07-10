@@ -4,8 +4,9 @@ with lib;
 {
   imports = [
     inputs.home-manager.nixosModules.home-manager
-    ../../modules/homebrew/stub
-    ../../modules
+    ../../modules/options.nix
+    ../../modules/config.linux.nix
+    ../../modules/config.nix
   ];
 
   system.stateVersion = "22.05";
