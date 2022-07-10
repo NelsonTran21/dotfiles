@@ -21,6 +21,7 @@
     ./rclone/config.darwin.nix
     ./skhd/config.darwin.nix
     ./steam/config.darwin.nix
+    ./tailscale/config.darwin.nix
     ./vscode/config.darwin.nix
     ./warp/config.darwin.nix
     ./yabai/config.darwin.nix

@@ -65,6 +65,7 @@
     ripgrep.enable = true;
     skhd.enable = true;
     steam.enable = true;
+    tailscale.enable = true;
     tldr.enable = true;
     vim.enable = true;
     vscode.enable = true;
