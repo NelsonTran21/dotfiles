@@ -91,6 +91,7 @@ with lib;
     prettyping.enable = true;
     rclone.enable = true;
     ripgrep.enable = true;
+    ssh.enable = true;
     tldr.enable = true;
     vim.enable = true;
   };
