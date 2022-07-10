@@ -54,7 +54,10 @@
 
     packages.x86_64-linux.nuttycloud = nixos-generators.nixosGenerate {
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
-      modules = [ ./hosts/nuttycloud/configuration.nix ];
+      modules = [
+        ./hosts/nuttycloud/configuration.nix
+        ./hosts/nuttycloud/configuration.rescue.nix
+      ];
       format = "kexec-bundle";
       specialArgs = {
         inherit inputs;
