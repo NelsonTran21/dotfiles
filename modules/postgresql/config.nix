@@ -6,6 +6,4 @@ mkIf config.modules.postgresql.enable {
     pgcli
     pgformatter
   ];
-
-  modules.homebrew.brews = [ "postgresql" ];
 }
