@@ -17,6 +17,12 @@
       fsType = "zfs";
     };
 
+  fileSystems."/home" =
+    {
+      device = "ssd/home";
+      fsType = "zfs";
+    };
+
   fileSystems."/boot/ESP0" =
     {
       device = "/dev/disk/by-uuid/C83C-ABFD";
