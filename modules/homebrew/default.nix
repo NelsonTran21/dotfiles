@@ -25,7 +25,7 @@ with lib;
   };
 
   config = mkIf config.modules.homebrew.enable {
-    homebrew = {
+    homebrew = optionalAttrs (pkgs.system == "aarch64-darwin") {
       enable = true;
       autoUpdate = true;
       taps = modules.mkAliasDefinitions options.modules.homebrew.taps;
