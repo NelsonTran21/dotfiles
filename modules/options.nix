@@ -25,7 +25,7 @@
     ./nix/options.nix
     ./node/options.nix
     ./obsidian/options.nix
-    ./password/options.nix
+    ./one-password/options.nix
     ./postgresql/options.nix
     ./prettyping/options.nix
     ./python/options.nix
