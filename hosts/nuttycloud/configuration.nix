@@ -98,6 +98,7 @@ with lib;
     rclone.enable = true;
     ripgrep.enable = true;
     ssh.enable = true;
+    tailscale.enable = true;
     tldr.enable = true;
     vim.enable = true;
   };

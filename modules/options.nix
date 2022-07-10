@@ -37,6 +37,7 @@
     ./skhd/options.nix
     ./ssh/options.nix
     ./steam/options.nix
+    ./tailscale/options.nix
     ./tldr/options.nix
     ./vim/options.nix
     ./vscode/options.nix
