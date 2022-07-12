@@ -104,6 +104,7 @@ with lib;
     git.enable = true;
     home.enable = true;
     htop.enable = true;
+    postgresql.enable = true;
     prettyping.enable = true;
     rclone.enable = true;
     ripgrep.enable = true;
