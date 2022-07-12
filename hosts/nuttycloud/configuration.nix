@@ -54,6 +54,7 @@ with lib;
       Gateway = 2604:2dc0:0200:17ff:00ff:00ff:00ff:00ff
       Address = 51.81.166.165/24
       Gateway = 51.81.166.254
+      LinkLocalAddressing = no
     '';
 
     links."20-dead-net" = {
