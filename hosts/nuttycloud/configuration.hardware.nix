@@ -23,6 +23,12 @@
       fsType = "zfs";
     };
 
+  fileSystems."/data/postgresql" =
+    {
+      device = "hdd/postgresql";
+      fsType = "zfs";
+    };
+
   fileSystems."/boot/ESP0" =
     {
       device = "/dev/disk/by-uuid/C83C-ABFD";
