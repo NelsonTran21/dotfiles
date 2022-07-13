@@ -64,6 +64,7 @@
     rclone.enable = true;
     ripgrep.enable = true;
     skhd.enable = true;
+    spotify.enable = true;
     steam.enable = true;
     tailscale.enable = true;
     tldr.enable = true;

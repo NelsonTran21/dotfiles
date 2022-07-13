@@ -35,6 +35,7 @@
     ./rclone/options.nix
     ./ripgrep/options.nix
     ./skhd/options.nix
+    ./spotify/options.nix
     ./ssh/options.nix
     ./steam/options.nix
     ./tailscale/options.nix

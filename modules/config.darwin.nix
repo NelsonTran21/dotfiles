@@ -20,6 +20,7 @@
     ./raycast/config.darwin.nix
     ./rclone/config.darwin.nix
     ./skhd/config.darwin.nix
+    ./spotify/config.darwin.nix
     ./steam/config.darwin.nix
     ./tailscale/config.darwin.nix
     ./vscode/config.darwin.nix
