@@ -17,6 +17,6 @@
 #define SFT_TAB LSFT(KC_TAB)
 
 enum custom_keycodes {
-	ANTIAFK = SAFE_RANGE,
-	SM_CAPS
+  ANTIAFK = SAFE_RANGE,
+  SM_CAPS
 };
