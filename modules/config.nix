@@ -21,6 +21,7 @@
     ./rclone/config.nix
     ./ripgrep/config.nix
     ./tldr/config.nix
+    ./tmux/config.nix
     ./vim/config.nix
   ];
 }

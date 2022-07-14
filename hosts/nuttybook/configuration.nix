@@ -68,6 +68,7 @@
     steam.enable = true;
     tailscale.enable = true;
     tldr.enable = true;
+    tmux.enable = true;
     vim.enable = true;
     vscode.enable = true;
     warp.enable = true;

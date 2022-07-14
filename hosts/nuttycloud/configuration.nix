@@ -112,6 +112,7 @@ with lib;
     ssh.enable = true;
     tailscale.enable = true;
     tldr.enable = true;
+    tmux.enable = true;
     vim.enable = true;
   };
 }

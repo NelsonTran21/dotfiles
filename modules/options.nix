@@ -40,6 +40,7 @@
     ./steam/options.nix
     ./tailscale/options.nix
     ./tldr/options.nix
+    ./tmux/options.nix
     ./vim/options.nix
     ./vscode/options.nix
     ./warp/options.nix
