@@ -1,0 +1,22 @@
+#pragma once
+
+enum keyboard_layers {
+	COLEMAK_LAYER,
+	QWERTY_LAYER,
+	SYMBOL_LAYER,
+	NUMPAD_LAYER,
+	EXTEND_LAYER,
+	MIRROR_LAYER,
+	FUNCTION_LAYER
+};
+
+// Default layers
+#define QWERTY  DF(QWERTY_LAYER)
+#define COLEMAK DF(COLEMAK_LAYER)
+
+// Momentary layers
+#define SYMBOL  MO(SYMBOL_LAYER)
+#define NUMPAD  MO(NUMPAD_LAYER)
+#define EXTEND  MO(EXTEND_LAYER)
+#define MIRROR  MO(MIRROR_LAYER)
+#define LAMBDA  MO(FUNCTION_LAYER)
