@@ -4,17 +4,15 @@ with pkgs;
 stdenv.mkDerivation rec {
   name = "qmk-firmware";
 
-  src = fetchFromGitHub {
-    owner = "qmk";
-    repo = "qmk_firmware";
-    rev = "20a28d6752ddf70d1c50a6b444bcb9ea74ea399a";
-    sha256 = "N64ralh295DUj/HdkwC/DCs7idd24na2r4i0dfRwxYc=";
+  src = fetchgit {
+    url = "https://github.com/qmk/qmk_firmware";
+    rev = "99e9e1b8e70b7b6a0cc03a6672f2512b472fb650";
+    sha256 = "fjsbr/IY+90bdtG6rsqtjkMs8SyfNJju4MmR3s66HPE=";
     fetchSubmodules = true;
+    leaveDotGit = true;
   };
 
-  buildInputs = [
-    which
-  ] ++ (import "${src}/shell.nix" { }).buildInputs;
+  buildInputs = (import "${src}/shell.nix" { }).buildInputs;
 
   prePatch = ''
     mkdir -pv users/NelsonTran21
