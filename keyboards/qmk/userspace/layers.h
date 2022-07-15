@@ -7,7 +7,8 @@ enum keyboard_layers {
   NUMPAD_LAYER,
   EXTEND_LAYER,
   MIRROR_LAYER,
-  FUNCTION_LAYER
+  FUNCTION_LAYER,
+  MOUSE_LAYER
 };
 
 // Default layers
@@ -20,3 +21,4 @@ enum keyboard_layers {
 #define EXTEND  MO(EXTEND_LAYER)
 #define MIRROR  MO(MIRROR_LAYER)
 #define LAMBDA  MO(FUNCTION_LAYER)
+#define MOUSE   MO(MOUSE_LAYER)

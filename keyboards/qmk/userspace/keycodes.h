@@ -13,6 +13,9 @@
 #define HOME_I LALT_T(KC_I)
 #define HOME_O RGUI_T(KC_O)
 
+// Mouse Layer
+#define MOUSE_W LT(MOUSE_LAYER, KC_W)
+
 // Shift Tab
 #define SFT_TAB LSFT(KC_TAB)
 
