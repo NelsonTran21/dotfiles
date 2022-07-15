@@ -9,6 +9,8 @@ with lib;
     ../../modules/config.nix
   ];
 
+  time.timeZone = "America/Phoenix";
+
   system.stateVersion = "22.05";
 
   nix = {

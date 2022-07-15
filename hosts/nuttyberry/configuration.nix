@@ -13,6 +13,8 @@ in
     ../../modules/config.nix
   ];
 
+  time.timeZone = "America/Phoenix";
+
   fileSystems = {
     "/" = {
       device = "/dev/disk/by-label/NIXOS_SD";
