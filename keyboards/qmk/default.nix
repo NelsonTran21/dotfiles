@@ -5,9 +5,9 @@ stdenv.mkDerivation rec {
   name = "qmk-firmware";
 
   src = fetchgit {
-    url = "https://github.com/qmk/qmk_firmware";
-    rev = "99e9e1b8e70b7b6a0cc03a6672f2512b472fb650";
-    sha256 = "fjsbr/IY+90bdtG6rsqtjkMs8SyfNJju4MmR3s66HPE=";
+    url = "https://github.com/NelsonTran21/qmk_firmware";
+    rev = "455b0b7bf7eafa2d829743fd4eadf8b52f91f70e";
+    sha256 = "RS9e/EdmfQrtsj9B/+sHB7PPnDPES+wP7UnFEqFaHiI=";
     fetchSubmodules = true;
     leaveDotGit = true;
   };
@@ -15,6 +15,9 @@ stdenv.mkDerivation rec {
   buildInputs = (import "${src}/shell.nix" { }).buildInputs;
 
   prePatch = ''
+    # Patch the shebang so that it works in the context of `nix build`.
+    substituteInPlace bin/qmk --replace '/usr/bin/env python3' $(type -p python)
+
     mkdir -pv users/NelsonTran21
     cp -rv ${./userspace}/* users/NelsonTran21/
 
