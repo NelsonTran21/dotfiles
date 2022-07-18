@@ -13,6 +13,7 @@
   "workbench.list.smoothScrolling": true,
   "window.titleBarStyle": "native",
   "window.zoomLevel": 0,
+  "zenMode.hideLineNumbers": false,
 
   "customizeUI.activityBar": "bottom",
   "customizeUI.font.regular": "Iosevka",
