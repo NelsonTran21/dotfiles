@@ -7,18 +7,21 @@ void toggle_anti_afk(void) {
 }
 
 bool process_record_anti_afk(uint16_t keycode, keyrecord_t *record) {
-    if (keycode == ANTIAFK && record->event.pressed) {
-        toggle_anti_afk();
-        return false;
-    }
+  if (keycode == ANTIAFK && record->event.pressed) {
+    toggle_anti_afk();
+    return false;
+  }
 
-   return true;
+  return true;
 }
 
 void matrix_scan_anti_afk(void) {
   if (is_anti_afk_active && timer_elapsed(anti_afk_timer) > anti_afk_delay) {
     uint8_t code = random() % 4;
 
+    // TODO When using the experimental kinetic branch, tapping the mouse
+    // movement keycodes does not nudge the mouse. They need to be held
+    // down for a short amount of time.
     switch (code) {
       case 0:
         tap_code(KC_MS_UP);
