@@ -68,6 +68,16 @@
       };
     };
 
+    nixosConfigurations.nuttytower = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        ./hosts/nuttytower/configuration.nix
+        ./hosts/nuttytower/configuration.hardware.nix
+      ];
+      specialArgs = { inherit inputs; };
+    };
+
+
     keyboards = import ./keyboards/qmk {
       pkgs = import nixpkgs { system = "x86_64-linux"; };
     };
