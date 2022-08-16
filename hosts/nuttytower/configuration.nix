@@ -55,6 +55,7 @@ with lib;
     htop.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;
+    ssh.enable = true;
     tldr.enable = true;
     tmux.enable = true;
     vim.enable = true;
