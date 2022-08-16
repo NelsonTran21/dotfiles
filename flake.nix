@@ -73,6 +73,7 @@
       modules = [
         ./hosts/nuttytower/configuration.nix
         ./hosts/nuttytower/configuration.hardware.nix
+        ./hosts/nuttytower/configuration.virtualization.nix
       ];
       specialArgs = { inherit inputs; };
     };
