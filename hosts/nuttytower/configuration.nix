@@ -62,6 +62,7 @@ with lib;
     git.enable = true;
     home.enable = true;
     htop.enable = true;
+    obsidian.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;
     ssh.enable = true;
