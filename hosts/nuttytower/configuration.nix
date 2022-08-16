@@ -44,6 +44,15 @@ with lib;
   sound.enable = true;
   hardware.pulseaudio.enable = true;
 
+  hardware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.beta;
+
+  services.xserver = {
+    enable = true;
+    videoDrivers = [ "nvidia" ];
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+  };
+
   modules = {
     bat.enable = true;
     exa.enable = true;
