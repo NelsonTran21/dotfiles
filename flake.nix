@@ -3,16 +3,12 @@
 
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-22.05";
-    };
-
-    nixpkgs-darwin = {
-      url = "github:NixOS/nixpkgs/nixpkgs-22.05-darwin";
+      url = "github:NixOS/nixpkgs/nixos-unstable";
     };
 
     darwin = {
       url = "github:LnL7/nix-darwin/master";
-      inputs.nixpkgs.follows = "nixpkgs-darwin";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     hardware = {
@@ -30,7 +26,7 @@
     };
   };
 
-  outputs = inputs @ { self, darwin, nixpkgs, nixpkgs-darwin, nixos-generators, ... }: {
+  outputs = inputs @ { self, darwin, nixpkgs, nixos-generators, ... }: {
     darwinConfigurations.nuttybook = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [ ./hosts/nuttybook/configuration.nix ];
