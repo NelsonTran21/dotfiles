@@ -20,6 +20,7 @@
     ./python/config.nix
     ./rclone/config.nix
     ./ripgrep/config.nix
+    ./rust/config.nix
     ./tldr/config.nix
     ./tmux/config.nix
     ./vim/config.nix

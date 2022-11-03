@@ -63,6 +63,7 @@
     raycast.enable = true;
     rclone.enable = true;
     ripgrep.enable = true;
+    rust.enable = true;
     skhd.enable = true;
     spotify.enable = true;
     steam.enable = true;

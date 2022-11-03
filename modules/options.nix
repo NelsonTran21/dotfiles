@@ -34,6 +34,7 @@
     ./raycast/options.nix
     ./rclone/options.nix
     ./ripgrep/options.nix
+    ./rust/options.nix
     ./skhd/options.nix
     ./spotify/options.nix
     ./ssh/options.nix
