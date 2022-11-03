@@ -11,7 +11,7 @@
   "editor.smoothScrolling": true,
   "workbench.editor.showIcons": false,
   "workbench.list.smoothScrolling": true,
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "zenMode.hideLineNumbers": false,
 
