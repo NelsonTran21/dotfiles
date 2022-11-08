@@ -7,6 +7,7 @@
     ./discord/options.nix
     ./dotnet/options.nix
     ./exa/options.nix
+    ./factorio/options.nix
     ./fd/options.nix
     ./fish/options.nix
     ./fzf/options.nix
