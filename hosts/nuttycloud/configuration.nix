@@ -101,6 +101,7 @@ with lib;
   modules = {
     bat.enable = true;
     exa.enable = true;
+    factorio.enable = true;
     fd.enable = true;
     fish.enable = true;
     fzf.enable = true;
