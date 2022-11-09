@@ -2,5 +2,7 @@
 
 with lib;
 mkIf config.modules.rust.enable {
-  environment.systemPackages = with pkgs; [ cargo rustc ];
+  environment.systemPackages = with pkgs; [
+    rustup
+  ];
 }
