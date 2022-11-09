@@ -9,4 +9,8 @@ mkIf config.modules.tailscale.enable {
     allowedUDPPorts = [ config.services.tailscale.port ];
     checkReversePath = "loose";
   };
+
+  # The link configuration check for this network interface is flaky.
+  # Related: https://github.com/NixOS/nixpkgs/issues/180175
+  systemd.network.wait-online.ignoredInterfaces = [ "tailscale0" ];
 }
