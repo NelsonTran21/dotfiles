@@ -7,6 +7,7 @@ in
 {
   imports = [
     inputs.home-manager.nixosModules.home-manager
+    inputs.vscode-server.nixosModule
     ../../modules/options.nix
     ../../modules/config.linux.nix
     ../../modules/config.nix
@@ -43,6 +44,11 @@ in
     experimental-features = nix-command flakes
   '';
 
+  # These two are needed to get VSCode working with WSL.
+  # https://github.com/msteen/nixos-vscode-server
+  services.vscode-server.enable = true;
+  environment.systemPackages = with pkgs; [ wget ];
+
   modules = {
     bat.enable = true;
     exa.enable = true;
@@ -52,6 +58,7 @@ in
     git.enable = true;
     home.enable = true;
     htop.enable = true;
+    node.enable = true;
     prettyping.enable = true;
     ripgrep.enable = true;
     ssh.enable = true;
