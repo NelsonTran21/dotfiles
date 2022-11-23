@@ -26,7 +26,7 @@ in
   wsl = {
     enable = true;
     automountPath = "/mnt";
-    defaultUser = "nixos";
+    defaultUser = "nelson";
     startMenuLaunchers = true;
 
     # Enable native Docker support
