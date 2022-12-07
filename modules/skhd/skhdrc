@@ -30,6 +30,6 @@ alt + shift - 1 : yabai -m window --display 1; yabai -m display --focus 1
 alt + shift - 2 : yabai -m window --display 2; yabai -m display --focus 2
 alt + shift - 3 : yabai -m window --display 3; yabai -m display --focus 3
 
-# move spaces
-ctrl - left : yabai -m space --focus prev
-ctrl - right : yabai -m space --focus next
+# move spaces (disabled until fix for macOS Ventura is released)
+#ctrl - left : yabai -m space --focus prev
+#ctrl - right : yabai -m space --focus next
