@@ -34,6 +34,7 @@
     bat.enable = true;
     chrome.enable = true;
     discord.enable = true;
+    docker.enable = true;
     dotnet.enable = true;
     exa.enable = true;
     fd.enable = true;

@@ -5,6 +5,7 @@
     ./bat/options.nix
     ./chrome/options.nix
     ./discord/options.nix
+    ./docker/options.nix
     ./dotnet/options.nix
     ./exa/options.nix
     ./factorio/options.nix

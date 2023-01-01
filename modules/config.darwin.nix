@@ -4,6 +4,7 @@
   imports = [
     ./chrome/config.darwin.nix
     ./discord/config.darwin.nix
+    ./docker/config.darwin.nix
     ./geforce/config.darwin.nix
     ./homebrew/config.darwin.nix
     ./hue/config.darwin.nix
