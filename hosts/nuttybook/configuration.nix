@@ -24,7 +24,7 @@
   nixpkgs.config.allowUnfree = true;
 
   # Create /etc/bashrc that loads the nix-darwin environment.
-  programs.zsh.enable = true;
+  programs.fish.enable = true;
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
@@ -34,47 +34,24 @@
     bat.enable = true;
     chrome.enable = true;
     discord.enable = true;
-    docker.enable = true;
-    dotnet.enable = true;
     exa.enable = true;
     fd.enable = true;
     fish.enable = true;
     fzf.enable = true;
-    geforce.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
     htop.enable = true;
-    hue.enable = true;
-    iosevka.enable = true;
-    jetbrains.enable = true;
     jq.enable = true;
-    linear.enable = true;
-    logitech.enable = true;
     kmonad.enable = true;
     macos.enable = true;
     nix.enable = true;
-    node.enable = true;
     obsidian.enable = true;
     one-password.enable = true;
-    postgresql.enable = true;
     prettyping.enable = true;
-    python.enable = true;
-    qmk.enable = true;
-    raspberry-pi.enable = true;
-    raycast.enable = true;
-    rclone.enable = true;
     ripgrep.enable = true;
-    rust.enable = true;
-    skhd.enable = true;
-    spotify.enable = true;
-    steam.enable = true;
-    tailscale.enable = true;
     tldr.enable = true;
     tmux.enable = true;
     vim.enable = true;
-    vscode.enable = true;
-    warp.enable = true;
-    yabai.enable = true;
   };
 }
