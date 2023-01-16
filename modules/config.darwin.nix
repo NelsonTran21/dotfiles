@@ -10,6 +10,7 @@
     ./hue/config.darwin.nix
     ./iosevka/config.darwin.nix
     ./jetbrains/config.darwin.nix
+    ./kmonad/config.darwin.nix
     ./linear/config.darwin.nix
     ./logitech/config.darwin.nix
     ./macos/config.darwin.nix

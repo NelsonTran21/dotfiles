@@ -28,6 +28,10 @@
     vscode-server = {
       url = "github:msteen/nixos-vscode-server";
     };
+
+    kmonad = {
+      url = "git+https://github.com/kmonad/kmonad?submodules=1&dir=nix";
+    };
   };
 
   outputs = inputs @ { self, darwin, nixpkgs, nixos-generators, ... }: {

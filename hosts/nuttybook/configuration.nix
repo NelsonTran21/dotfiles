@@ -51,6 +51,7 @@
     jq.enable = true;
     linear.enable = true;
     logitech.enable = true;
+    kmonad.enable = true;
     macos.enable = true;
     nix.enable = true;
     node.enable = true;
