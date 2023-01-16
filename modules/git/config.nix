@@ -6,6 +6,7 @@ mkIf config.modules.git.enable {
     gitAndTools.delta
     gitAndTools.gitFull
     github-cli
+    lazygit
   ];
 
   modules.home.file = {
