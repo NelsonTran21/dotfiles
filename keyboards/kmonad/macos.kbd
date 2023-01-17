@@ -9,24 +9,10 @@
   num (layer-toggle number)
   sym (layer-toggle symbol)
 
-  ;; Allow toggling dual-role alpha keys
-  drk (layer-switch colemak-dh-with-dual-role-keys)
-  cdh (layer-switch colemak-dh)
-
-  ;; Home row modifiers
-  aa (tap-hold-next-release 200 a lmet)
-  rr (tap-hold-next-release 200 r lalt)
-  ss (tap-hold-next-release 200 s lsft)
-  tt (tap-hold-next-release 200 t lctl)
-  nn (tap-hold-next-release 200 n lctl)
-  ee (tap-hold-next-release 200 e lsft)
-  ii (tap-hold-next-release 200 i lalt)
-  oo (tap-hold-next-release 200 o lmet)
-
-  ;; Dual-role alpha keys
-  gg (tap-hold-next-release 200 g @num)
-  cc (tap-hold-next-release 200 c @sym)
-  ,, (tap-hold-next-release 200 , @sym)
+  sc (sticky-key 500 lctrl)
+  ss (sticky-key 500 lsft)
+  sa (sticky-key 500 lalt)
+  sm (sticky-key 500 lmet)
 )
 
 (defsrc
@@ -38,30 +24,21 @@
   fn   lctl lalt lmet           spc            rmet ralt left down rght
 )
 
-(deflayer colemak-dh-with-dual-role-keys
-  _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    q    w    f    p    b    j    l    u    y    ;    _    _    _
-  @ext @aa  @rr  @ss  @tt  @gg  m    @nn  @ee  @ii  @oo  _    _
-  @sym z    x    @cc  d    v    k    h    @,,  _    -    @sym _
-  _    _    _    _              _              _    @cdh _    _    _
-)
-
 (deflayer colemak-dh
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    q    w    f    p    b    j    l    u    y    ;    _    _    _
   @ext a    r    s    t    g    m    n    e    i    o    _    _
-  _    z    x    c    d    v    k    h    _    _    _    _    _
-  _    _    _    _              _              _    @drk _    _    _
+  _    z    x    c    d    v    k    h    _    _    -    _    _
+  _    _    _    _              _              @sym _    _    _    _
 )
 
 (deflayer extension
   _    brdn brup lp   mctl bldn blup prev pp   next mute vold volu
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    del  bspc _    _    _    _    _
-  _    _    _    _    _    _    left down up   rght _    _    _
-  _    _    _    _    _    _    home pgdn pgup end  _    _    _
+  _    _    _    _    esc  _    _    del  bspc _    _    _    _    _
+  _    @sm  @sa  @ss  @sc  @num left down up   rght @ss  _    _
+  _    _    _    _    @sym _    home pgdn pgup end  _    _    _
   _    _    _    _              _              _    _    _    _    _
 )
 
@@ -79,6 +56,6 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    `    ~    {    }    /    |    &    *    =    :    _    _    _
   _    <    >    \(   \)   esc  +    $    %    ^    ent  "    _
-  _    @    caps [    ]    \    -    #    ?    !    \_   _    _
+  _    @    ?    [    ]    \    -    #    ?    !    \_   _    _
   _    _    _    _              _              _    _    _    _    _
 )
