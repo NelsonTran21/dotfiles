@@ -31,6 +31,7 @@
   system.stateVersion = 4;
 
   modules = {
+    alacritty.enable = true;
     bat.enable = true;
     chrome.enable = true;
     discord.enable = true;

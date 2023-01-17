@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./alacritty/options.nix
     ./bat/options.nix
     ./chrome/options.nix
     ./discord/options.nix

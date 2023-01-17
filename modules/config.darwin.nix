@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./alacritty/config.darwin.nix
     ./chrome/config.darwin.nix
     ./discord/config.darwin.nix
     ./docker/config.darwin.nix
