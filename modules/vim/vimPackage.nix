@@ -2,7 +2,9 @@
 
 let
   # Automatically loaded when neovim launches
-  autoloadedPlugins = with vimPlugins; [ ];
+  autoloadedPlugins = with vimPlugins; [
+    catppuccin-nvim
+  ];
 
   # Manually loaded by calling `:packadd <plugin>`
   manualPlugins = with vimPlugins; [ ];

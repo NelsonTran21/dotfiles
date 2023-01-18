@@ -74,10 +74,12 @@ vim.o.mouse = 'a'
 -- Appearance
 --
 
-vim.o.termguicolors = true
 vim.wo.cursorline = true
 vim.wo.number = true
 vim.wo.foldcolumn = "1"
+
+vim.o.termguicolors = true
+vim.cmd.colorscheme "catppuccin-mocha"
 
 --
 -- Mappings
