@@ -4,6 +4,7 @@ with lib;
 mkIf config.modules.vim.enable {
   environment.systemPackages = [
     (pkgs.callPackage ./vimPackage.nix { })
+    pkgs.tree-sitter
   ];
 
   modules.home.file = {

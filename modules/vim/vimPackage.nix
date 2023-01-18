@@ -5,6 +5,7 @@ let
   autoloadedPlugins = with vimPlugins; [
     catppuccin-nvim
     nvim-lspconfig
+    nvim-treesitter.withAllGrammars
   ];
 
   # Manually loaded by calling `:packadd <plugin>`
@@ -15,6 +16,7 @@ let
       customRC = ''
         lua require('init')
         lua require('lsp')
+        lua require('treesitter')
       '';
 
       packages.myVimPackage = {
