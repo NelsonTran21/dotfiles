@@ -48,6 +48,7 @@
     kmonad.enable = true;
     macos.enable = true;
     nix.enable = true;
+    node.enable = true;
     obsidian.enable = true;
     one-password.enable = true;
     prettyping.enable = true;

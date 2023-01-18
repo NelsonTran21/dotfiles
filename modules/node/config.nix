@@ -6,6 +6,7 @@ mkIf config.modules.node.enable {
     bun
     nodejs
     nodePackages.typescript
+    nodePackages.typescript-language-server
     yarn
   ];
 }

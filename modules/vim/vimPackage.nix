@@ -4,6 +4,7 @@ let
   # Automatically loaded when neovim launches
   autoloadedPlugins = with vimPlugins; [
     catppuccin-nvim
+    nvim-lspconfig
   ];
 
   # Manually loaded by calling `:packadd <plugin>`
@@ -13,6 +14,7 @@ let
     configure = {
       customRC = ''
         lua require('init')
+        lua require('lsp')
       '';
 
       packages.myVimPackage = {
