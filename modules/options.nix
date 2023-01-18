@@ -22,6 +22,7 @@
     ./iosevka/options.nix
     ./jetbrains/options.nix
     ./jq/options.nix
+    ./just/options.nix
     ./kmonad/options.nix
     ./linear/options.nix
     ./logitech/options.nix

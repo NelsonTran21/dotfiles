@@ -12,6 +12,7 @@
     ./home/config.nix
     ./htop/config.nix
     ./jq/config.nix
+    ./just/config.nix
     ./nix/config.nix
     ./node/config.nix
     ./one-password/config.nix
