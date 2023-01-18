@@ -2,7 +2,7 @@
 
 with lib;
 {
-  options.modules.iosevka = with types; {
+  options.modules.fonts = with types; {
     enable = mkOption {
       type = bool;
       default = false;

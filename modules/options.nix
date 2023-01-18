@@ -12,6 +12,7 @@
     ./factorio/options.nix
     ./fd/options.nix
     ./fish/options.nix
+    ./fonts/options.nix
     ./fzf/options.nix
     ./geforce/options.nix
     ./git/options.nix
@@ -19,7 +20,6 @@
     ./homebrew/options.nix
     ./htop/options.nix
     ./hue/options.nix
-    ./iosevka/options.nix
     ./jetbrains/options.nix
     ./jq/options.nix
     ./just/options.nix

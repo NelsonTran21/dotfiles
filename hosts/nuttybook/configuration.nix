@@ -38,6 +38,7 @@
     exa.enable = true;
     fd.enable = true;
     fish.enable = true;
+    fonts.enable = true;
     fzf.enable = true;
     git.enable = true;
     home.enable = true;

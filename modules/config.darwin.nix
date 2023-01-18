@@ -6,10 +6,10 @@
     ./chrome/config.darwin.nix
     ./discord/config.darwin.nix
     ./docker/config.darwin.nix
+    ./fonts/config.darwin.nix
     ./geforce/config.darwin.nix
     ./homebrew/config.darwin.nix
     ./hue/config.darwin.nix
-    ./iosevka/config.darwin.nix
     ./jetbrains/config.darwin.nix
     ./kmonad/config.darwin.nix
     ./linear/config.darwin.nix
