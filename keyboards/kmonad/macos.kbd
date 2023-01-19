@@ -30,7 +30,7 @@
 (deflayer colemak-dh
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    q    w    f    p    b    j    l    u    y    ;    _    _    _
+  _    q    w    f    p    b    j    l    u    y    ;    _    _    lctl
   @ext a    r    s    t    g    m    n    e    i    o    _    _
   _    z    x    @cc  d    v    k    h    @,,  _    -    _    _
   _    _    _    _              _              @sym _    _    _    _
