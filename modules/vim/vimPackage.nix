@@ -4,6 +4,7 @@ let
   # Automatically loaded when neovim launches
   autoloadedPlugins = with vimPlugins; [
     catppuccin-nvim
+    comment-nvim
     cmp-buffer
     cmp-cmdline
     cmp-nvim-lsp
@@ -26,6 +27,7 @@ let
         lua require('completions')
         lua require('lsp')
         lua require('treesitter')
+        lua require('Comment').setup()
       '';
 
       packages.myVimPackage = {
