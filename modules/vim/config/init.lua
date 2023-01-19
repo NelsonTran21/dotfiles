@@ -57,6 +57,7 @@ vim.o.smartcase = true
 -- Usability
 --
 
+vim.o.clipboard = 'unnamedplus'
 vim.o.completeopt = 'menuone,noselect'
 vim.o.startofline = false
 vim.o.wrap = false
