@@ -9,6 +9,9 @@
   num (layer-toggle number)
   sym (layer-toggle symbol)
 
+  cc (tap-hold-next-release 200 c @sym)
+  ,, (tap-hold-next-release 200 , @sym)
+
   sc (sticky-key 500 lctrl)
   ss (sticky-key 500 lsft)
   sa (sticky-key 500 lalt)
@@ -29,7 +32,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    q    w    f    p    b    j    l    u    y    ;    _    _    _
   @ext a    r    s    t    g    m    n    e    i    o    _    _
-  _    z    x    c    d    v    k    h    _    _    -    _    _
+  _    z    x    @cc  d    v    k    h    @,,  _    -    _    _
   _    _    _    _              _              @sym _    _    _    _
 )
 
