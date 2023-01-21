@@ -15,6 +15,8 @@ let
     nvim-cmp
     nvim-lspconfig
     nvim-treesitter.withAllGrammars
+    plenary-nvim
+    telescope-nvim
   ];
 
   # Manually loaded by calling `:packadd <plugin>`
@@ -25,6 +27,7 @@ let
       customRC = ''
         lua require('init')
         lua require('completions')
+        lua require('fuzzy-finder')
         lua require('lsp')
         lua require('treesitter')
         lua require('Comment').setup()
