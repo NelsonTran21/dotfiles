@@ -23,6 +23,7 @@
     ./jetbrains/options.nix
     ./jq/options.nix
     ./just/options.nix
+    ./kitty/options.nix
     ./kmonad/options.nix
     ./linear/options.nix
     ./logitech/options.nix

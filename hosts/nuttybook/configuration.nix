@@ -46,6 +46,7 @@
     htop.enable = true;
     jq.enable = true;
     just.enable = true;
+    kitty.enable = true;
     kmonad.enable = true;
     macos.enable = true;
     nix.enable = true;

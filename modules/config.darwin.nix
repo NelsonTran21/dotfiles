@@ -11,6 +11,7 @@
     ./homebrew/config.darwin.nix
     ./hue/config.darwin.nix
     ./jetbrains/config.darwin.nix
+    ./kitty/config.darwin.nix
     ./kmonad/config.darwin.nix
     ./linear/config.darwin.nix
     ./logitech/config.darwin.nix
