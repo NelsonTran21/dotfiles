@@ -17,6 +17,7 @@ let
     nvim-treesitter.withAllGrammars
     plenary-nvim
     telescope-nvim
+    toggleterm-nvim
   ];
 
   # Manually loaded by calling `:packadd <plugin>`
@@ -29,8 +30,10 @@ let
         lua require('completions')
         lua require('fuzzy-finder')
         lua require('lsp')
+        lua require('terminal')
         lua require('treesitter')
         lua require('Comment').setup()
+        lua require('toggleterm').setup()
       '';
 
       packages.myVimPackage = {
