@@ -37,6 +37,7 @@
     discord.enable = true;
     exa.enable = true;
     fd.enable = true;
+    figma.enable = true;
     fish.enable = true;
     fonts.enable = true;
     fzf.enable = true;

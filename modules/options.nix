@@ -11,6 +11,7 @@
     ./exa/options.nix
     ./factorio/options.nix
     ./fd/options.nix
+    ./figma/options.nix
     ./fish/options.nix
     ./fonts/options.nix
     ./fzf/options.nix
