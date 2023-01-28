@@ -12,6 +12,7 @@ let
     cmp-path
     cmp_luasnip
     luasnip
+    null-ls-nvim
     nvim-cmp
     nvim-lspconfig
     nvim-surround
