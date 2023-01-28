@@ -14,6 +14,7 @@ let
     luasnip
     nvim-cmp
     nvim-lspconfig
+    nvim-surround
     nvim-treesitter.withAllGrammars
     plenary-nvim
     telescope-nvim
@@ -33,6 +34,7 @@ let
         lua require('terminal')
         lua require('treesitter')
         lua require('Comment').setup()
+        lua require('nvim-surround').setup()
         lua require('toggleterm').setup()
       '';
 
