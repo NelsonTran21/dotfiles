@@ -1,51 +1,64 @@
 {
-  "editor.fontFamily": "Input",
+  "editor.fontFamily": "PragmataPro Liga",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "debug.console.fontSize": 14,
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
+  "debug.console.fontSize": 13,
+  "editor.renderWhitespace": "none",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": false,
   "editor.smoothScrolling": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.guides.indentation": false,
   "workbench.editor.showIcons": false,
+  "css.lint.unknownAtRules": "ignore",
+  "catppuccin.italicComments": false,
+  "catppuccin.italicKeywords": false,
   "workbench.list.smoothScrolling": true,
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0,
   "zenMode.hideLineNumbers": false,
+  "customizeUI.listRowHeight": 21,
   "customizeUI.activityBar": "bottom",
-  "customizeUI.font.regular": "Input",
-  "customizeUI.listRowHeight": 20,
+  "customizeUI.font.regular": "Nure",
+  "customizeUI.font.monospace": "PragmataPro Liga",
+  "customizeUI.stylesheet": {
+    ":root": "font-weight: 250; font-variation-settings: 'opsz' 18, 'wdth' 80 !important;"
+  },
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindings": [
     {
-      "before": [
-        "leader",
-        "leader"
-      ],
-      "commands": [
-        "workbench.action.quickOpen"
-      ]
+      "before": ["leader", "leader"],
+      "commands": ["workbench.action.quickOpen"]
     },
     {
-      "before": [
-        "leader",
-        "w"
-      ],
-      "commands": [
-        "workbench.action.files.save"
-      ]
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": [
-        "leader",
-        "leader"
-      ],
-      "commands": [
-        "workbench.action.showCommands"
-      ]
+      "before": ["leader", "leader"],
+      "commands": ["workbench.action.showCommands"]
     }
-  ]
+  ],
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.inlineSuggest.enabled": true,
+  "update.mode": "none",
+  "window.zoomLevel": 1,
+  "editor.lineHeight": 1.5,
+  "debug.console.lineHeight": 1.5,
+  "terminal.integrated.lineHeight": 1.25,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
