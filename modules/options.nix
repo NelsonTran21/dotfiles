@@ -4,6 +4,7 @@
   imports = [
     ./alacritty/options.nix
     ./bat/options.nix
+    ./caddy/options.nix
     ./chrome/options.nix
     ./discord/options.nix
     ./docker/options.nix
@@ -14,6 +15,7 @@
     ./figma/options.nix
     ./fish/options.nix
     ./fonts/options.nix
+    ./footcards/options.nix
     ./fzf/options.nix
     ./geforce/options.nix
     ./git/options.nix

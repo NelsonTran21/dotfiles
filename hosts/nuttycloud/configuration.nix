@@ -100,6 +100,7 @@ with lib;
 
   modules = {
     bat.enable = true;
+    caddy.enable = true;
     exa.enable = true;
     docker.enable = true;
     factorio.enable = true;
