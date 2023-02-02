@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./docker/config.linux.nix
     ./factorio/config.linux.nix
     ./home/config.linux.nix
     ./postgresql/config.linux.nix
