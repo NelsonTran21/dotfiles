@@ -104,6 +104,7 @@ with lib;
     exa.enable = true;
     docker.enable = true;
     factorio.enable = true;
+    footcards.enable = true;
     fd.enable = true;
     fish.enable = true;
     fzf.enable = true;
