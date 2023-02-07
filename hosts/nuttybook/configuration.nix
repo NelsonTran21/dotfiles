@@ -35,6 +35,7 @@
     bat.enable = true;
     chrome.enable = true;
     discord.enable = true;
+    docker.enable = true;
     exa.enable = true;
     fd.enable = true;
     figma.enable = true;
@@ -56,7 +57,9 @@
     obsidian.enable = true;
     one-password.enable = true;
     prettyping.enable = true;
+    raycast.enable = true;
     ripgrep.enable = true;
+    tailscale.enable = true;
     tldr.enable = true;
     tmux.enable = true;
     vim.enable = true;
