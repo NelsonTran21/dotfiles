@@ -7,6 +7,7 @@
     ./discord/config.darwin.nix
     ./docker/config.darwin.nix
     ./figma/config.darwin.nix
+    ./flux/config.darwin.nix
     ./fonts/config.darwin.nix
     ./geforce/config.darwin.nix
     ./homebrew/config.darwin.nix

@@ -14,6 +14,7 @@
     ./fd/options.nix
     ./figma/options.nix
     ./fish/options.nix
+    ./flux/options.nix
     ./fonts/options.nix
     ./footcards/options.nix
     ./fzf/options.nix

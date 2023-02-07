@@ -39,6 +39,7 @@
     fd.enable = true;
     figma.enable = true;
     fish.enable = true;
+    flux.enable = true;
     fonts.enable = true;
     fzf.enable = true;
     git.enable = true;
