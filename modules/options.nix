@@ -6,6 +6,7 @@
     ./bat/options.nix
     ./caddy/options.nix
     ./chrome/options.nix
+    ./direnv/options.nix
     ./discord/options.nix
     ./docker/options.nix
     ./dotnet/options.nix

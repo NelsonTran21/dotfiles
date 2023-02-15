@@ -34,6 +34,7 @@
     alacritty.enable = true;
     bat.enable = true;
     chrome.enable = true;
+    direnv.enable = true;
     discord.enable = true;
     docker.enable = true;
     exa.enable = true;

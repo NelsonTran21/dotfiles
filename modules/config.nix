@@ -3,6 +3,7 @@
 {
   imports = [
     ./bat/config.nix
+    ./direnv/config.nix
     ./dotnet/config.nix
     ./exa/config.nix
     ./fd/config.nix
