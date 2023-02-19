@@ -60,6 +60,7 @@
     prettyping.enable = true;
     raycast.enable = true;
     ripgrep.enable = true;
+    supabase.enable = true;
     tailscale.enable = true;
     tldr.enable = true;
     tmux.enable = true;

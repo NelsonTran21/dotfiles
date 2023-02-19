@@ -50,6 +50,7 @@
     ./spotify/options.nix
     ./ssh/options.nix
     ./steam/options.nix
+    ./supabase/options.nix
     ./tailscale/options.nix
     ./tldr/options.nix
     ./tmux/options.nix
