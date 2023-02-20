@@ -6,6 +6,7 @@
     ./chrome/config.darwin.nix
     ./discord/config.darwin.nix
     ./docker/config.darwin.nix
+    ./dropbox/config.darwin.nix
     ./figma/config.darwin.nix
     ./flux/config.darwin.nix
     ./fonts/config.darwin.nix

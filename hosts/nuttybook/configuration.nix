@@ -37,6 +37,7 @@
     direnv.enable = true;
     discord.enable = true;
     docker.enable = true;
+    dropbox.enable = true;
     exa.enable = true;
     fd.enable = true;
     figma.enable = true;

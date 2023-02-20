@@ -10,6 +10,7 @@
     ./discord/options.nix
     ./docker/options.nix
     ./dotnet/options.nix
+    ./dropbox/options.nix
     ./exa/options.nix
     ./factorio/options.nix
     ./fd/options.nix
