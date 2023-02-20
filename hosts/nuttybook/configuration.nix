@@ -44,6 +44,7 @@
     flux.enable = true;
     fonts.enable = true;
     fzf.enable = true;
+    geforce.enable = true;
     git.enable = true;
     home.enable = true;
     homebrew.enable = true;
