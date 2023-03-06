@@ -78,8 +78,13 @@ vim.o.mouse = 'a'
 vim.wo.cursorline = true
 vim.wo.number = true
 vim.wo.foldcolumn = "1"
-
 vim.o.termguicolors = true
+
+require('catppuccin').setup({
+   -- By default, this plugin will write compiled results into the Nix store
+   -- (which is read-only), so we need to change the path to something else.
+   compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
+})
 vim.cmd.colorscheme "catppuccin-mocha"
 
 --
