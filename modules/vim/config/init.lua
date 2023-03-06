@@ -97,10 +97,10 @@ vim.g.mapleader = " "
 vim.api.nvim_set_keymap('c', 'w!!', 'w !sudo tee % >/dev/null', { noremap = true })
 
 -- Split navigation
-vim.api.nvim_set_keymap('n', '<LEADER>wm', '<C-w><C-h>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<LEADER>wn', '<C-w><C-j>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<LEADER>we', '<C-w><C-k>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<LEADER>wi', '<C-w><C-l>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<LEADER>tm', '<C-w><C-h>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<LEADER>tn', '<C-w><C-j>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<LEADER>te', '<C-w><C-k>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<LEADER>ti', '<C-w><C-l>', { noremap = true })
 
 -- Toggle line wrapping
 vim.api.nvim_set_keymap('n', '<LEADER>tl', ':set wrap!<CR>', { noremap = true })
@@ -113,3 +113,7 @@ vim.api.nvim_set_keymap('n', '<LEADER>tp', ':set paste!<CR>', { noremap = true }
 
 -- Clear search highlighting
 vim.api.nvim_set_keymap('n', '//', ':noh<CR>', { noremap = true })
+
+-- Save file
+vim.api.nvim_set_keymap('n', '<LEADER>w', ':w<CR>', {noremap = true, silent = true})
+
