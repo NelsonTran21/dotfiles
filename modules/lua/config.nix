@@ -2,5 +2,5 @@
 
 with lib;
 mkIf config.modules.lua.enable {
-  environment.systemPackages = with pkgs; [ lua ];
+  environment.systemPackages = with pkgs; [ lua5_4 ];
 }
