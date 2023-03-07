@@ -33,6 +33,7 @@
     ./kmonad/options.nix
     ./linear/options.nix
     ./logitech/options.nix
+    ./lua/options.nix
     ./macos/options.nix
     ./nix/options.nix
     ./node/options.nix

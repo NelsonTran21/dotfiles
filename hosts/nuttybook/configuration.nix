@@ -54,6 +54,7 @@
     just.enable = true;
     kitty.enable = true;
     kmonad.enable = true;
+    lua.enable = true;
     macos.enable = true;
     nix.enable = true;
     node.enable = true;
