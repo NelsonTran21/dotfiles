@@ -69,5 +69,6 @@
     tmux.enable = true;
     vim.enable = true;
     vscode.enable = true;
+    zotero.enable = true;
   };
 }

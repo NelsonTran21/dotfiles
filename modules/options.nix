@@ -60,5 +60,6 @@
     ./vscode/options.nix
     ./warp/options.nix
     ./yabai/options.nix
+    ./zotero/options.nix
   ];
 }

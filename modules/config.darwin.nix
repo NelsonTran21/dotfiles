@@ -34,5 +34,6 @@
     ./vscode/config.darwin.nix
     ./warp/config.darwin.nix
     ./yabai/config.darwin.nix
+    ./zotero/config.darwin.nix
   ];
 }
