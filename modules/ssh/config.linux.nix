@@ -4,7 +4,9 @@ with lib;
 mkIf config.modules.ssh.enable {
   services.openssh = {
     enable = true;
-    permitRootLogin = "yes";
+    settings = {
+      PermitRootLogin = "yes";
+    };
   };
 
   networking.firewall.allowedTCPPorts = [ 22 ];
