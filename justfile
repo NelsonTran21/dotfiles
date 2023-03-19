@@ -5,4 +5,4 @@ switch:
    darwin-rebuild switch --flake .
 
 keyboards:
-   nix build .#keyboards
+   nix build --impure .#keyboards
