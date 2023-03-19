@@ -16,6 +16,9 @@
 // Mouse Layer
 #define MOUSE_W LT(MOUSE_LAYER, KC_W)
 
+// Symbol Layer
+#define SYM_COM LT(SYMBOL_LAYER, KC_COMM)
+
 // Shift Tab
 #define SFT_TAB LSFT(KC_TAB)
 
