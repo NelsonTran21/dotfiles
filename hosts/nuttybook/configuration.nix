@@ -61,6 +61,7 @@
     obsidian.enable = true;
     one-password.enable = true;
     prettyping.enable = true;
+    qmk.enable = true;
     raycast.enable = true;
     ripgrep.enable = true;
     supabase.enable = true;
