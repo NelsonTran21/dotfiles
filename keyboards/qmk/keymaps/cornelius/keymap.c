@@ -6,8 +6,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [COLEMAK_LAYER] = LAYOUT( \
     KC_TAB,  KC_Q,    KC_W,    KC_F,   KC_P,    KC_B,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_BSPC,
-    EXTEND,  HOME_A,  HOME_R,  HOME_S, HOME_T,  HOME_G,  KC_M,    HOME_N,  HOME_E,  HOME_I,  HOME_O,  KC_QUOT,
-    NUMPAD,  KC_Z,    KC_X,    KC_C,   KC_D,    KC_V,    KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_MINS, KC_ENT,
+    EXTEND,  KC_A,    KC_R,    KC_S,   KC_T,    HOME_G,  KC_M,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,
+    KC_LSFT, KC_Z,    KC_X,    KC_C,   KC_D,    KC_V,    KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_MINS, KC_RSFT,
     KC_LCTL, KC_LGUI, KC_LALT, MIRROR, KC_NO,   KC_SPC,  SYMBOL,  LAMBDA,  KC_SLCK, KC_RALT, KC_RGUI, KC_RCTL
   ),
 
@@ -33,10 +33,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [EXTEND_LAYER] = LAYOUT(
-    RESET,   _______, _______, KC_BSPC, _______, _______, _______, KC_DEL,  KC_BSPC, _______, _______, KC_PSCR,
-    _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,
-    _______, _______, _______, SFT_TAB, KC_TAB,  _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+    RESET,   _______, _______, KC_BTN2, KC_BTN1, _______, _______, KC_DEL,  KC_BSPC, _______, _______, KC_PSCR,
+    _______, KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,
+    _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_MS_U, _______,
+    _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_MS_L, KC_MS_D, KC_MS_R
   ),
 
   [MIRROR_LAYER] = LAYOUT(
