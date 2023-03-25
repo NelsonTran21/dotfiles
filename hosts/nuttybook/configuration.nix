@@ -64,6 +64,7 @@
     qmk.enable = true;
     raycast.enable = true;
     ripgrep.enable = true;
+    rust.enable = true;
     supabase.enable = true;
     tailscale.enable = true;
     tldr.enable = true;
