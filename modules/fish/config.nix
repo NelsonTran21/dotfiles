@@ -13,6 +13,7 @@ mkIf config.modules.fish.enable {
       source ./greeting.fish ++
       source ./prompt.fish ++
 
+      sourceIf config.modules.bat.enable ../bat/init.fish ++
       sourceIf config.modules.direnv.enable ../direnv/init.fish ++
       sourceIf config.modules.exa.enable ../exa/init.fish ++
       sourceIf config.modules.fzf.enable ../fzf/init.fish ++
